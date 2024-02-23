@@ -71,3 +71,7 @@ python mgmt_cert_check.py
 You'll be prompted to enter the name of the text file you created earlier and your credentials. Ensure you use credentials with API access rights. MFA credentials will not work with this tool. Use a common local service account; superuser rights are not necessary—readonly-superuser will work.
 
 Once the tool finishes running, you'll see results for Each Panorama Instance and a list of the devices it manages.
+
+Example:
+
+![alt text](https://github.com/PaloAltoNetworks/mgmt-cert-check/blob/main/example.png?raw=true)
