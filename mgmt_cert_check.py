@@ -140,7 +140,7 @@ def process_list(ip):
                             # print(f"Certificate expiration date for Model: {model} IP: {ip}, {expiration_date}", "needs to be updated")
                             if model == 'Panorama' or model == 'panorama':
                                 model = 'VM Panorama'
-                            device_table = Table(title=f"Model: {model}, Version: {panorama_version}, IP: {ip}, Uptime: {panorama_uptime}, Cert Date: {expiration_date}, needs to be updated.\n\nDevices Managed by this Panorama", show_header=True, header_style="bold magenta", show_lines=True, title_justify="center", show_edge=True)
+                            device_table = Table(title=f"[bold white on red]Model: {model}, Version: {panorama_version}, IP: {ip}, Uptime: {panorama_uptime}, Cert Date: {expiration_date}, needs to be updated.[/]\n\nDevices Managed by this Panorama", show_header=True, header_style="bold magenta", show_lines=True, title_justify="center", show_edge=True)
                             device_table.add_column("Device Name", justify="center")
                             device_table.add_column("IP Address", width=18, justify="center")
                             device_table.add_column("Device Model", justify="center")
@@ -225,7 +225,7 @@ def process_list(ip):
                         else:
                             if model == 'Panorama' or model == 'panorama':
                                 model = 'VM Panorama'
-                            device_table = Table(title=f"Model: {model}, Version: {panorama_version}, IP: {ip}, Uptime: {panorama_uptime}, Cert Date: {expiration_date}, is patched.\n\nDevices Managed by this Panorama", show_header=True, header_style="bold magenta", show_lines=True, title_justify="center", show_edge=True)
+                            device_table = Table(title=f"[bold white on green]Model: {model}, Version: {panorama_version}, IP: {ip}, Uptime: {panorama_uptime}, Cert Date: {expiration_date}, is patched.[/]\n\nDevices Managed by this Panorama", show_header=True, header_style="bold magenta", show_lines=True, title_justify="center", show_edge=True)
                             device_table.add_column("Device Name", justify="center")
                             device_table.add_column("IP Address", width=18, justify="center")
                             device_table.add_column("Device Model", justify="center")
