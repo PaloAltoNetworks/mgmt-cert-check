@@ -72,6 +72,8 @@ You'll be prompted to enter the name of the text file you created earlier and yo
 
 Once the tool finishes running, you'll see results for Each Panorama Instance and a list of the devices it manages.
 
+Once the tool finishes running, you'll see results with different colors. Green indicates no action is needed, and red means actions need to be taken.
+
 Example:
 
 ![alt text](https://github.com/PaloAltoNetworks/mgmt-cert-check/blob/main/example.png?raw=true)
